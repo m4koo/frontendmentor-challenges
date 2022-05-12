@@ -30,6 +30,37 @@ main{
     border-radius: 15px;
 }
 
+form{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+label{
+    
+    background-color: hsl(213, 19%, 23%);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+input{
+    display: none;
+}
+
+input:checked + label{
+    background-color: hsl(217, 12%, 63%);
+}
+
+form label:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
 #star-bg{
     display: flex;
     justify-content: center;

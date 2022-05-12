@@ -87,6 +87,13 @@ button{
     font-weight: 600;
 }
 
+button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
 #star-bg{
     display: flex;
     justify-content: center;

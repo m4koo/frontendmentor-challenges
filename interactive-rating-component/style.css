@@ -29,3 +29,13 @@ main{
     margin: 0 1.5rem 0 1.5rem;
     border-radius: 15px;
 }
+
+#star-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 23%);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}

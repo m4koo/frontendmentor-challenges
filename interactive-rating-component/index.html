@@ -14,13 +14,14 @@
 <body>
   <main>
     <!-- Rating state start -->
-    <div>
+    <div id="rating-state" style="display: none">
       <div id="star-bg">
         <img src="./images/icon-star.svg" alt="">
       </div>
       <h2>How did we do?</h2>
 
-      <p>Please let us know how we did with your support request. All feedback is appreciated 
+      <p id="ask">
+        Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!
       </p>
       
@@ -49,16 +50,22 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div style="display: none">
-      <img src="" alt="">
-  
-      <p>
-        You selected <!-- Add rating here --> out of 5
-      </p>
+    <div id="thank-you">
+      <div id="illu-pos">
+        <img src="./images/illustration-thank-you.svg" alt="">
+      </div>
+      
+      <div id="selection-outer">
+        <p id="selection">
+          You selected <!-- Add rating here -->4 out of 5
+        </p>
+      </div>
+      
 
       <h1>Thank you!</h1>
 
-      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      <p id="msg">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
         don't hesitate to get in touch!
       </p>
     </div>

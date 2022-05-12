@@ -56,9 +56,11 @@ input:checked + label{
     background-color: hsl(217, 12%, 63%);
 }
 
-form label:hover{
+@media (hover: hover) {
+    form label:hover{
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
+    }  
 }
 
 #star-bg{

@@ -25,9 +25,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this Challenge, I learned that I need an eventListener for my submit with an event.preventDefault() function so the browser doesn't refresh while submitting.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Also how to get the value out of checked radio buttons.
 
 ### Continued development
 

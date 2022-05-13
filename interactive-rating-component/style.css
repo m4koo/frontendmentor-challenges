@@ -20,7 +20,7 @@ h1, h2{
     margin-bottom: 0;
 }
 
-#ask{
+.ask{
   line-height: 1.5rem;
   margin-top: 0.75rem;
   margin-bottom: 1.75rem;
@@ -43,6 +43,7 @@ form{
     display: flex;
     justify-content: space-between; 
     align-items: center; 
+    flex-wrap: wrap;
 }
 
 label{
@@ -74,6 +75,7 @@ input:checked + label{
     }  
 }
 
+
 button{
     border: none;
     background-color: hsl(25, 97%, 53%);
@@ -94,7 +96,7 @@ button:hover{
     transition: all 0.5s;
 }
 
-#star-bg{
+.star-bg{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,18 +108,18 @@ button:hover{
 }
 
 
-#thank-you{
+.thank-you{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#illu-pos{
+.illu-pos{
     margin-top: 1rem;
 }
 
-#selection-outer{
+.selection-outer{
     margin-top: 1.5rem;
     background-color: hsl(213, 19%, 23%);
     border-radius: 15px;
@@ -128,14 +130,18 @@ button:hover{
     align-items: center;
 }
 
-#selection{
+.selection{
     color: hsl(25, 97%, 53%);
     
 }
 
-#msg{
+.msg{
    text-align: center;
    margin-top: 7px;
+}
+
+.hidden{
+    display: none;
 }
 
 

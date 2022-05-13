@@ -14,57 +14,56 @@
 <body>
   <main>
     <!-- Rating state start -->
-    <div id="rating-state">
-      <div id="star-bg">
+    <div class="rating-state">
+      <div class="star-bg">
         <img src="./images/icon-star.svg" alt="rating-section-icon">
       </div>
       <h2>How did we do?</h2>
 
-      <p id="ask">
+      <p class="ask">
         Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!
       </p>
       
-      <form>
-        <input type="radio" name="ratings" id="rating1">
+      <form class="rating-form">
+        <input type="radio" name="ratings" id="rating1" value="1">
         <label for="rating1">1</label>
 
-        <input type="radio" name="ratings" id="rating2">
+        <input type="radio" name="ratings" id="rating2" value="2">
         <label for="rating2">2</label>
 
-        <input type="radio" name="ratings" id="rating3">
+        <input type="radio" name="ratings" id="rating3" value="3">
         <label for="rating3">3</label>
 
-        <input type="radio" name="ratings" id="rating4">
+        <input type="radio" name="ratings" id="rating4" value="4">
         <label for="rating4">4</label>
 
-        <input type="radio" name="ratings" id="rating5">
+        <input type="radio" name="ratings" id="rating5" value="5">
         <label for="rating5">5</label>
+
+        <button type="submit">SUBMIT</button>
       </form>
 
-      <div id="btn">
-        <button type="submit">SUBMIT</button>
-      </div>
+        
+      
       
     </div>
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div id="thank-you" style="display: none">
-      <div id="illu-pos">
+    <div class="thank-you hidden">
+      <div class="illu-pos">
         <img src="./images/illustration-thank-you.svg" alt="deco">
       </div>
       
-      <div id="selection-outer">
-        <p id="selection">
-          
-        </p>
+      <div class="selection-outer">
+        <p class="selection"></p>
       </div>
       
 
       <h1>Thank you!</h1>
 
-      <p id="msg">
+      <p class="msg">
         We appreciate you taking the time to give a rating. If you ever need more support, 
         don't hesitate to get in touch!
       </p>
@@ -78,4 +77,5 @@
   </main>
   <script src="script.js"></script>
 </body>
+
 </html>

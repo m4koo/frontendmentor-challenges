@@ -14,10 +14,14 @@ body{
     align-items: center;
 }
 
-h1, h2{
+h1{
     color: white;
     font-weight: 700;
     margin-bottom: 0;
+}
+
+.question{
+    font-size: 1.75rem;
 }
 
 .ask{
